@@ -153,6 +153,7 @@ h2{
 .footer a{
     color: white;
     text-decoration: none;
+    margin-right: 20px;
 }
 
 .footer a:hover{
@@ -216,10 +217,7 @@ h2{
         padding: 10px 10px;
         font-size: 12px;
     }
-    .header h2{
-        padding: 30px 30px;
-        font-size: 14px;
-    }
+
 
     
 
