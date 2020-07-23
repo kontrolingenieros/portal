@@ -171,7 +171,7 @@ h2{
     .container__services{
         display: grid;
         width: 90%;
-        grid-template: 100px 100px 100px 200px / 30% 30% 30% ;
+        grid-template: 100px 100px 100px 600px / 30% 30% 30% ;
         text-align: center;
     }
     .container__services img{
