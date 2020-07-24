@@ -8,6 +8,10 @@ body{
 h2{
     margin: 0px;
 }
+
+ul{
+    list-style-position: inside;
+}
 .header{
     font-family: 'Muli', sans-serif;
     width: 100%;
@@ -60,7 +64,7 @@ h2{
     width: 90%;
     grid-template: 33% 33% 34% / 10% 10% 10% 70%;
     margin: 20px;
-    text-align: center;
+    text-align: justify;
 }
 .container__services h2{
     font-size: 14px;
@@ -172,8 +176,8 @@ h2{
     .container__services{
         display: grid;
         width: 90%;
-        grid-template: 100px 100px 100px 600px / 30% 30% 30% ;
-        text-align: center;
+        grid-template: 10% 10% 10% 30% / 30% 30% 30% ;
+        text-align: justify;
     }
     .container__services img{
         width: 50px;
