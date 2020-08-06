@@ -177,7 +177,6 @@ ul{
 }
 
 .container__about{
-    padding: 20px;
     color: #03045E;
     width: 100%;
     height: 300px;
@@ -186,7 +185,11 @@ ul{
     justify-content: space-around;
     background: white;
 } 
+.container__about h1{
+    padding: 20px;
+} 
 .container__about p{
+    padding: 20px;
     font-size: 20px;
 }
 
@@ -201,7 +204,6 @@ ul{
     text-decoration: underline;
 }
 .container__industries{
-    padding: 20px;
     color: #03045E;
     text-align: justify;
     width: 100%;
@@ -263,6 +265,12 @@ ul{
         grid-area: 4/1/5/4;
         padding: 10px;
         opacity: 0;
+    }
+    .container__about{
+       height: 400px;
+    } 
+    .container__industries{
+        text-align: justify;
     }
     .footer{
         font-family: 'Muli', sans-serif;
