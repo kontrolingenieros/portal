@@ -105,40 +105,42 @@ ul{
     grid-row: 2/3;
     text-align: center;
 }
+.hide {
+    display: none;
+}
 .container__section--design-def{
     grid-area: 1/4/4/5;
     padding: 10px;
-    opacity: 0;
     
 }
 .container__section--equipment-def{
     grid-area: 1/4/4/5;
     padding: 10px;
-    opacity: 0;
+    
 }
 .container__section--implementation-def{
     grid-area: 1/4/4/5;
     padding: 10px;
-    opacity: 0;
+    
 }
 .container__section--maintenance-def{
     grid-area: 1/4/4/5;
     padding: 10px;
-    opacity: 0;
+    
 }
 
-.container__section--design:hover ~ .container__section--design-def{
-    opacity: 1;
+.container__section--design:hover {
+    cursor: pointer;
 }
 
-.container__section--equipment:hover ~ .container__section--equipment-def{
-    opacity: 1;
+.container__section--equipment:hover{
+    cursor: pointer;
 }
-.container__section--implementation:hover ~ .container__section--implementation-def{
-    opacity: 1;
+.container__section--implementation:hover {
+    cursor: pointer;
 }
-.container__section--maintenance:hover ~ .container__section--maintenance-def{
-    opacity: 1;
+.container__section--maintenance:hover{
+    cursor: pointer;
 }
 .whatsapp {
     position:fixed;
@@ -236,7 +238,7 @@ ul{
     .container__services{
         display: grid;
         width: 90%;
-        grid-template: 10% 10% 10% 30% / 30% 30% 30% ;
+        grid-template: 70px 70px 70px 30% / 30% 30% 30% ;
         text-align: justify;
     }
     .container__services img{
@@ -248,23 +250,22 @@ ul{
     .container__section--design-def{
         grid-area: 4/1/5/4;
         padding: 10px;
-        opacity: 0;
-        height: 90vh;
+        
     }
     .container__section--equipment-def{
         grid-area: 4/1/5/4;
         padding: 10px;
-        opacity: 0;
+        
     }
     .container__section--implementation-def{
         grid-area: 4/1/5/4;
         padding: 10px;
-        opacity: 0;
+        
     }
     .container__section--maintenance-def{
         grid-area: 4/1/5/4;
         padding: 10px;
-        opacity: 0;
+        
     }
     .container__about{
        height: 400px;
