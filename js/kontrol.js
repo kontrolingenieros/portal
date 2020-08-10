@@ -21,13 +21,13 @@ const mostrarInfo = function(ev) {
     hideInfo();
 
     const section = ev.currentTarget.dataset.info;
-    console.log(section);    
+    
     const sec = sections[section].classList.remove('hide');
 };
 
 function hideInfo(){
     
-    console.log('hide');
+    
     sections["designInfo"].classList.add('hide');
     sections["equipmentInfo"].classList.add('hide');
     sections["instalationInfo"].classList.add('hide');
